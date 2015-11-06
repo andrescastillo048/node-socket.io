@@ -1,0 +1,120 @@
+@import 'variables';
+.leaderboard-container {
+  border-top: 0px solid black;
+  background-color: rgba(0,0,0,.8);
+  width: 100%
+}
+
+.leaderboard-header {
+  font-family: 'Quicksand-regular', sans-serif;
+  color: white;
+  text-align: center;
+  border-left: solid 1px black;
+  margin: 0;
+  padding: 6px 0;
+}
+
+.custom-card {
+  @include card-container(
+  $background: white, 
+  $color: white, 
+  $border: 1px solid #000,
+  $radius: 0px, 
+  $padding: 0rem,
+  $margin: 1rem 
+  );
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.custom-card-divider {
+  @include card-divider(
+  $padding: 0rem
+  );
+  width: 100%;
+  margin: 0;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  padding-left: 0.5em;
+  display: none;
+  margin-top: -19%;
+  z-index: 2;
+  background: rgba(0, 0, 0, .7);
+  position: relative;
+}
+
+.picture {
+  z-index: 0;
+  overflow: hidden;
+}
+
+.card-list-item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  padding: 0rem;
+  margin: 0;
+  border: 0;
+}
+
+.grid-content{
+  padding: 0;
+}
+
+
+.ReactModal__Overlay {
+  background-color: rgba(0,0, 0,0.2);
+
+}
+
+
+.ReactModal__Content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 28%;
+  opacity: 1;
+  z-index: 999999;
+  color: white;
+  text-align: center;
+  background-color: black;
+  border: none;
+
+  &:focus{
+    outline: white;
+  }
+
+
+}
+
+
+.modalUser {
+  padding-top: 5%;
+  color: white;
+}
+
+.closeModalButton {
+  width: 100%;
+}
+
+.columnContainer {
+  width: 50%;
+}
+
+a.close-button {
+  margin-right: -0.48rem;
+  margin-top: -0.18rem
+}
+
+
+
+
+
+

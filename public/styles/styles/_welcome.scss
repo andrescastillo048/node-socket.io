@@ -1,0 +1,34 @@
+
+.welcome-title {
+  position: absolute;
+  z-index: 10;
+  font-family: 'Quicksand-regular', sans-serif;
+  font-size: 2.5rem;
+  padding-top: 57px;
+  padding-left: 50px
+}
+
+a {
+  font-style: bold;
+  color: $purple;
+
+  &:hover {
+    color: $darkPurple;
+  }
+
+}
+
+#welcomeBoard {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+  background-image: url('../asset/section1Background.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.welcome-container {
+  overflow: hidden;
+}
+

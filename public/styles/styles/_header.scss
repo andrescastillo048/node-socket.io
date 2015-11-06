@@ -1,0 +1,38 @@
+@import 'variables';
+
+.menu-bar {
+  font-family: 'Quicksand-regular', sans-serif;
+  li {
+    margin: 0;
+    img {
+        width: auto;
+        height: 3rem;
+        padding: 0; 
+        border-radius: 50%;
+        margin-top: 0.12em;
+        vertical-align: none;
+    }
+
+    a {
+      font-size: x-large;
+      & img {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+  #icon {
+    a {
+      padding: 5px;
+    }
+  }
+  .logOut {
+    padding-right: 10px;
+  }
+}
+
+
+
+#logo {
+  margin-top: 0.12em;
+}
